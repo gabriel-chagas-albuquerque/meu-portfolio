@@ -94,6 +94,15 @@ section{
 @media(max-width:600px){
   body{
     font-size: 1.3rem;
+    padding: 3rem 0;
   }
+
+  header, section,footer{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+ 
 }
 

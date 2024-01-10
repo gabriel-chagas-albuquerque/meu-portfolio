@@ -1,0 +1,19 @@
+:root {
+    --background:hsl(255, 50%, 38%);
+    --background-dark:#3a3939;
+    --cor-primaria: hsl(300, 70%, 52%);
+    --cor-secundaria:  hsl(24, 78%, 47%);
+    --cor-branca:#fff;
+    
+      
+   
+  }
+:root {
+    --fonte-primaria: 'Poppins', sans serif;
+    --fonte-secundaria: 'Raleway', sans serif;
+    --fonte-logo: 'Ephesis', cursive;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+  }

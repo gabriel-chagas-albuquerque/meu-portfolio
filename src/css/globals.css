@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+html {
+  font-size: 62.5%;
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--cor-branca);
+  font-family: var(--fonte-primaria);
+  font-size: var(--fonte-normal);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2rem;
+  padding:3rem 4rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  gap:10rem;
+}
+
+section{
+  padding:0 5rem;
+}
+
+
+.redes-sociais{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ .redes-sociais li a {
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cor-branca);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.redes-sociais a i {
+  line-height: 40px; 
+}
+
+.redes-sociais a:hover {
+  color: var(--cor-primaria);
+  transform: scale(1.2);
+}
+
+.outer-shadow {
+  box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-shadow {
+  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.title-section{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4rem 0;
+  font-size: var(--fonte-extra-grande);
+}
+
+.botao {
+  font-size: var(--fonte-grande);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all .5s ease;
+  background-color: var(--cor-primaria);
+}
+
+.botao:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+}
+
+@media(max-width:600px){
+  body{
+    font-size: 1.3rem;
+  }
+}
+

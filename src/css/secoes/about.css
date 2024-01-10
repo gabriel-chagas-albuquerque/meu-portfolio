@@ -1,0 +1,47 @@
+.about{
+display: flex;
+flex-direction: column;
+}
+
+.about .about-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .about-content img{
+    max-width: 50%;
+    margin:20px;
+}
+
+.about .about-content .informacoes-sobre-mim{
+    max-width: 50%;
+    padding:2rem;
+}
+
+.about .about-content .informacoes-sobre-mim p{
+    padding:15px;
+}
+
+@media(max-width:900px){
+    .about .about-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about-content img{
+        margin-bottom:2rem;
+        max-width: 90%;
+    }
+
+    .about .about-content .informacoes-sobre-mim{
+        max-width: 90%;
+        padding:2rem 0;
+        text-align: center;
+    }
+
+    .about .about-content .informacoes-sobre-mim .botoes .botao{
+        font-size: 1.6rem;
+    }
+
+}

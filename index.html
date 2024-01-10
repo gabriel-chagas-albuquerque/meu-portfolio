@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./src/imagens/images-favicon.png" type="image/x-icon">
+  <title>Gabriel das Chagas Albuquerque - Desenvolvedor Frontend</title>
+  <link rel="stylesheet" href="src/css/font-awesome.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/globals.css">
+  <link rel="stylesheet" href="src/css/variables.css">
+  <link rel="stylesheet" href="src/css/secoes/header.css">
+  <link rel="stylesheet" href="src/css/secoes/home.css">
+  <link rel="stylesheet" href="src/css/secoes/about.css">
+  <link rel="stylesheet" href="src/css/secoes/skills.css">
+  <link rel="stylesheet" href="src/css/secoes/projects.css">
+  <link rel="stylesheet" href="src/css/secoes/footer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="#">
+        <h1 class="name-logo">g</h1>
+      </a>
+    </div>
+    <nav>
+      <input id="menu-hamburguer" type="checkbox" />
+      <label for="menu-hamburguer">
+        <div class="menu">
+          <span class="hamburguer"></span>
+        </div>
+      </label>
+      <ul>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="home">
+      <div class="apresentacao">
+        <div class="home-text">
+          <p>Olá,</p>
+          <h1>Sou o Gabriel Albuquerque</h1>
+          <h2>Desenvolvedor Frontend</h2>
+        </div>
+        <nav >
+          <ul class="redes-sociais">
+            <li><a href="https://www.linkedin.com/in/devgabrielalbuquerque/" class="outer-shadow"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
+            <li><a href="https://wa.me/5585988284034" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://github.com/gabriel-chagas-albuquerque" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/gabrielchagasalbuquerque?igsh=MW0zZG55a2ptOW9leg==" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </nav>
+      </div> 
+      <div class="box-shadow inner-shadow">
+        <img src="./src/imagens/foto-perfil-gabriel.jpg" alt="Foto do Gabriel">
+      </div>
+    </section>
+    <section class="about">
+      <h1 class="title-section">Sobre Mim</h1>
+      <div class="about-content">
+        <img src="./src/imagens/foto-perfil-gabriel-sobre-mim.jpg" alt="Foto do Gabriel na seção sobre mim">
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Gabriel Albuquerque e sou um desenvolvedor frontend em
+              formação!</strong>
+            Gosto MUITO da área de tecnologia e mais ainda de desafios, e tenho certeza que posso contribuir em qualquer
+            time com as minhas habilidades, aprimorar meus pontos fortes e melhorar onde ainda não sou bom.
+          </p>
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi. 😁
+          </p>
+          <div class="botoes">
+            <a target="_blank" href="./src/arquivos/Gabriel Albuquerque - Desenvolvedor web front-end.pdf"
+              class="botao outer-shadow" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h1 class="title-section">Habilidades</h1>
+      <div class="container-skills">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.
+          </p>
+        </div>
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado
+            e a estrutura do conteúdo da web. </p>
+        </div>
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever
+            a apresentação de um documento escrito em HTML ou em XML. </p>
+        </div>
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p> GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs,
+            utilizando o Git como sistema de controle.</p>
+        </div>
+        <div class="informacoes git">
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+          <h3>Git</h3>
+          <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git é uma alternativa com um
+            funcionamento mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório,
+            não apenas o "servidor principal".</p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h1 class="title-section">Projetos</h1>
+      <div class="container-projects">
+        <div class="project">
+          <h3>Huddle</h3>
+          <img src="./src/imagens/image-huddle-project-reduzida.PNG" alt="Imagem do projeto do site Huddle">
+          <p class="info-project">
+            Se trata de um desafio do site front-end mentor que consiste em
+            construir uma landing page da empresa Huddle. O site é responsivo e acessível e destaca para o usuário os
+            estados de foco de todos os elementos presentes na página
+          </p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/huddle-landing-page" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/huddle-landing-page/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+        <div class="project">
+          <h3>One Piece</h3>
+          <img src="./src/imagens/image-one-piece-project-reduzida.PNG" alt="">
+          <p class="info-project">Se trata de uma landing page construída durante o evento Semana do Zero ao Programador
+            Contratado, do Dev em Dobro, ela apresenta os personagens principais do anime One Piece. É uma página
+            responsiva, acessivél e conta com recursos de interatividade com o usuário</p>
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/projeto-one-piece-final" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/projeto-one-piece-final/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+        <div class="project">
+          <h3>Nft Card</h3>
+          <img src="./src/imagens/image-nft-card-project-reduzida.PNG" alt="">
+
+          <p class="info-project">Se trata de um projeto de um card que reúne as principais informações de um produto a
+            de maneira resumida. Esse projeto foi realizado para fins de treinamento do uso do flexbox</p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/nft-preview-card" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/nft-preview-card/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+        <div class="project">
+          <h3>Resumo de Resultados</h3>
+          <img src="./src/imagens/image-summary-components-project-reduzida.PNG" alt="">
+
+          <p class="info-project">Se trata de um desafio do site front-end mentor que consiste em construir um
+            componente de resumo de resultados, que mostra os atributos memória, comunicação verbal e a capacidade
+            visual. O site é reponsivo e acessível</p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/results-summary" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/results-summary/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <h2>Me envie uma mensagem!</h2>
+    <ul class="redes-sociais">
+      <li>
+        <a href="https://www.linkedin.com/in/devgabrielalbuquerque/" class="outer-shadow" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+      <li>
+        <a href="https://wa.me/5585988284034" class="outer-shadow" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/gabriel-chagas-albuquerque" class="outer-shadow" target="_blank"><i class="fab fa-github"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/gabrielchagasalbuquerque?igsh=MW0zZG55a2ptOW9leg==" class="outer-shadow" target="_blank"><i class="fab fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>

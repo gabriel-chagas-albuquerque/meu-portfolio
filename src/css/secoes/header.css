@@ -3,6 +3,7 @@
     justify-content: space-between;
     min-width: 330px;
     width: 100%;
+    padding: 0 4rem;
 }
 .header .logo{
     padding: 0 2rem;

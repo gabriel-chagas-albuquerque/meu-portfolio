@@ -2,8 +2,7 @@
     margin-top: 5rem;
     text-align: center;
     background-color: var(--cor-fundo-cinza-claro);
-    width: 100vw;
-    border-top: solid 3px rgb(155, 151, 151);
+    width: 100%;
     padding: 3rem;
     }
 .footer h2 {

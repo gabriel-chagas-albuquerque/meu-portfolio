@@ -135,8 +135,8 @@
 
    .header nav ul {
         display: none;        
-        background-color: var(--background-dark);         
-        padding: 20px;
+        background-color: black;         
+        padding: 30px;
       
     }
     

@@ -22,7 +22,7 @@
     padding: 40px 20px;
     margin:30px;
     text-align: center;
-    background-color: rgb(48, 27, 66);
+    background-color: var(--background-cards);
     border-radius: 15px;
     transition: all .8s ease;
 }

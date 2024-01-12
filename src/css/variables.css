@@ -1,6 +1,6 @@
 :root {
-    --background:hsl(255, 50%, 38%);
-    --background-dark:#3a3939;
+    --background:hsl(255, 38%, 22%);
+    --background-cards:rgb(68, 36, 95);
     --cor-primaria: hsl(300, 70%, 52%);
     --cor-secundaria:  hsl(24, 78%, 47%);
     --cor-branca:#fff;

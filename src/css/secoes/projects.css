@@ -13,12 +13,12 @@
 }
 
 .projects .container-projects .project{
-    max-width: 300px;
+    width: 300px;
     padding: 20px 20px;
     margin:30px;
     background-color: var(--background-cards);
     border-radius: 15px;
-    transition: all .8s ease;
+    transition: all .4s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,8 +26,7 @@
     gap: 20px;
 }
 .projects .container-projects .project:hover{
-    transform: scale(1.15);
- 
+    transform: scale(1.1);
 }
 
 .projects .container-projects .project:hover p{
@@ -43,6 +42,9 @@
     text-align: center;
 }
 
+.projects .container-projects .project img {
+    border-radius: 10px;
+}
 
 .projects .container-projects .project .botoes{
     display: flex;

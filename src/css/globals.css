@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap:2rem;
-  padding:3rem 4rem;
+  padding:0 4rem 3rem;
 }
 
 main {
@@ -80,7 +80,7 @@ section{
   font-size: var(--fonte-grande);
   padding: 10px 20px;
   border-radius: 20px;
-  transition: all .5s ease;
+  transition: all .7s ease-in-out;
   background-color: var(--cor-primaria);
 }
 
@@ -94,7 +94,6 @@ section{
 @media(max-width:600px){
   body{
     font-size: 1.3rem;
-    padding: 3rem 0;
   }
 
   header, section,footer{

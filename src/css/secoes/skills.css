@@ -18,7 +18,7 @@
 }
 
 .container-skills .informacoes{
-    max-width: 300px;
+    width: 150px;
     padding: 40px 20px;
     margin:30px;
     text-align: center;
@@ -27,8 +27,28 @@
     transition: all .8s ease;
 }
 
+.container-skills .informacoes.javascript {
+    color:#FBD83A;
+}
+
+.container-skills .informacoes.html {
+    color:#df4a17;
+}
+
+.container-skills .informacoes.css {
+    color:#00B1EE;
+}
+
+.container-skills .informacoes.git {
+    color:#f05033;
+}
+
+.container-skills .informacoes.github {
+    color:#9B59B6;
+}
+
 .container-skills .informacoes:hover{
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
 
 .container-skills .informacoes .logo i{
@@ -40,38 +60,4 @@
 .container-skills .informacoes p{
     margin:10px 0;
     transition: all .8s ease;
-}
-
-.container-skills .informacoes:hover .logo i{
-    text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
-    2px -2px 0 rgba(255, 255, 255, 0.9);
-}
-.container-skills .informacoes.javascript:hover .logo i,
-.container-skills .informacoes.javascript:hover h3{
-    color:#FBD83A;
-}
-
-.container-skills .informacoes.html:hover .logo i,
-.container-skills .informacoes.html:hover h3{
-    color:#df4a17;
-
-}
-
-.container-skills .informacoes.css:hover .logo i,
-.container-skills .informacoes.css:hover h3{
-    color:#00B1EE;
-}
-
-.container-skills .informacoes.github:hover .logo i,
-.container-skills .informacoes.github:hover h3{
-    color:#9B59B6;
-}
-
-.container-skills .informacoes.git:hover .logo i,
-.container-skills .informacoes.git:hover h3{
-    color:#f05033;
-}
-
-.container-skills .informacoes:hover p{
-    font-weight: 700;
 }

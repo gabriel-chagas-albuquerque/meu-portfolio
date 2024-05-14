@@ -16,13 +16,15 @@
   <link rel="stylesheet" href="src/css/secoes/about.css">
   <link rel="stylesheet" href="src/css/secoes/skills.css">
   <link rel="stylesheet" href="src/css/secoes/projects.css">
+  <link rel="stylesheet" href="./src/css/secoes/back-to-top.css">
   <link rel="stylesheet" href="src/css/secoes/footer.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://kit.fontawesome.com/7503797751.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="logo">
       <a href="#">
         <h1 class="name-logo">g</h1>
@@ -44,7 +46,7 @@
     </nav>
   </header>
   <main>
-    <section class="home">
+    <section class="home" id="home">
       <div class="apresentacao">
         <div class="home-text">
           <p>Olá,</p>
@@ -61,13 +63,13 @@
         </nav>
       </div> 
       <div class="box-shadow inner-shadow">
-        <img src="./src/imagens/foto-perfil-gabriel.jpg" alt="Foto do Gabriel">
+        <img src="./src/imagens/foto-perfil.png" alt="Foto do Gabriel">
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="title-section">Sobre Mim</h1>
       <div class="about-content">
-        <img src="./src/imagens/foto-perfil-gabriel-sobre-mim.jpg" alt="Foto do Gabriel na seção sobre mim">
+        <img src="./src/imagens/foto-perfil-sobre-mim.png" alt="Foto do Gabriel na seção sobre mim">
         <div class="informacoes-sobre-mim">
           <p>
             <strong>Olá! Me chamo Gabriel Albuquerque e sou um desenvolvedor frontend em
@@ -81,7 +83,7 @@
             aprendi. 😁
           </p>
           <div class="botoes">
-            <a target="_blank" href="./src/arquivos/Gabriel Albuquerque - Desenvolvedor web front-end.pdf"
+            <a target="_blank" href="./src/arquivos/GabrieldasChagasAlbuquerque-dev_web_frontend_junior.pdf"
               class="botao outer-shadow" download>Download CV</a>
           </div>
         </div>
@@ -95,41 +97,30 @@
             <i class="devicon devicon-javascript-plain" id="javascript"></i>
           </div>
           <h3>JavaScript</h3>
-          <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.
-          </p>
         </div>
         <div class="informacoes html">
           <div class="logo">
             <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
           </div>
           <h3>HTML5</h3>
-          <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado
-            e a estrutura do conteúdo da web. </p>
         </div>
         <div class="informacoes css">
           <div class="logo">
             <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
           </div>
           <h3>CSS3</h3>
-          <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo usada para descrever
-            a apresentação de um documento escrito em HTML ou em XML. </p>
         </div>
         <div class="informacoes github">
           <div class="logo">
             <i class="devicon devicon-github-original" id="github"></i>
           </div>
           <h3>GitHub</h3>
-          <p> GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs,
-            utilizando o Git como sistema de controle.</p>
         </div>
         <div class="informacoes git">
           <div class="logo">
             <i class="devicon devicon-git-plain" id="git"></i>
           </div>
           <h3>Git</h3>
-          <p>O Git é um sistema de controle de versão distribuído e amplamente adotado. O Git é uma alternativa com um
-            funcionamento mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório,
-            não apenas o "servidor principal".</p>
         </div>
       </div>
     </section>
@@ -194,9 +185,59 @@
               target="_blank">Link do Site</a>
           </div>
         </div>
+        <div class="project">
+          <h3>Gerador de Conselhos</h3>
+          <img src="./src/imagens/advice-generator.png" alt="Imagem do projeto gerador de conselhos">
+          <p class="info-project">
+            Se trata de um desafio com o intuito de melhorar as minhas habilidades de desenvolvedor web.
+            O projeto consiste em uma página que mostra um conselho aleatório retirado de uma Api de conselhos
+          </p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/advice-generator" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/advice-generator/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+        
+        <div class="project">
+          <h3>Cartão Interativo</h3>
+          <img src="./src/imagens/interactive-card-details-form.png" alt="Imagem do projeto cartão interativo">
+          <p class="info-project">
+            Se trata de um projeto feito com o intuito de treinar as minhas habilidades de desenvolvimento Web.
+            O projeto consiste em validar os dados preenchidos pelo usuário, e depois de validados, fazer com que os dados apareçam no cartão e aparece na tela uma mensagem agradecendo o usuário.
+          </p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/interactive-card-details-form" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/interactive-card-details-form/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3>GitHub API</h3>
+          <img src="./src/imagens/github-api.png" alt="Imagem do projeto GitHub API">
+          <p class="info-project">
+            Se trata de uma página em que você pode fazer uma busca por um perfil no GitHub através do nome de usuário, a página retorna os dados do perfil, como foto de perfil, os repositórios mais recentes e os últimos eventos que ocorreram nessa conta do GitHub.
+          </p>
+
+          <div class="botoes">
+            <a href="https://github.com/gabriel-chagas-albuquerque/projeto-github-fetch-api" class="botao outer-shadow"
+              target="_blank">Link do Repositório</a>
+            <a href="https://gabriel-chagas-albuquerque.github.io/projeto-github-fetch-api/" class="botao outer-shadow"
+              target="_blank">Link do Site</a>
+          </div>
+        </div>
+        
       </div>
     </section>
   </main>
+  <a href="#header" class="btn-back-to-top visible">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
   <footer class="footer" id="footer">
     <h2>Me envie uma mensagem!</h2>
     <ul class="redes-sociais">
@@ -214,6 +255,7 @@
       </li>
     </ul>
   </footer>
+  <script src="./src/scripts/index.js"></script>
 </body>
 
 </html>

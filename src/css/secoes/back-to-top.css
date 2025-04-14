@@ -3,7 +3,23 @@
     position: fixed;
     bottom:30px;
     right:30px;
-    visibility: hidden;  
+    visibility: hidden;
+    transition: ease-in-out 0.5s;
+    animation: slideup 1s infinite ;
+}
+
+@keyframes slideup {
+    from {
+        bottom:30px;
+    }
+
+    to{
+        bottom:32px;
+    }
+}
+
+.btn-back-to-top:hover{
+    color:orange;
 }
 
 .visible{

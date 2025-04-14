@@ -17,18 +17,20 @@ body {
   flex-direction: column;
   align-items: center;
   gap:2rem;
-  padding:0 4rem 3rem;
+  /*padding:0 8rem 3rem;*/
 }
 
 main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 1440px;
+  width:100%;
   gap:10rem;
 }
 
-section{
-  padding:0 5rem;
+.about, .projects, .skills{
+  width: 80%;
 }
 
 

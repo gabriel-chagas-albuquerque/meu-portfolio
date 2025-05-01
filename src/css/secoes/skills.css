@@ -27,7 +27,7 @@
     transition: all .8s ease;
 }
 
-.container-skills .informacoes.github i {
+.container-skills .informacoes.github .logo i {
     color:#9B59B6;
 }
 

@@ -23,7 +23,7 @@
     margin:30px;
     text-align: center;
     background-color: var(--background-cards);
-    border-radius: 15px;
+    border-radius: 10px;
     transition: all .8s ease;
 }
 
@@ -38,7 +38,7 @@
 
 .container-skills .informacoes .logo i{
     font-size: 8rem;
-    transition:all .8s ease;
+    transition:all .4s ease;
 }
 
 .container-skills .informacoes h3,
@@ -55,5 +55,5 @@
 .container-skills .informacoes h3,
 .container-skills .informacoes p{
     margin:10px 0;
-    transition: all .8s ease;
+    transition: all .4s ease;
 }

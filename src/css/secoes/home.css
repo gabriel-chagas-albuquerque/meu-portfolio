@@ -56,6 +56,12 @@
     }
 }
 
+@media(max-width:650px) {
+    .home .box-home {
+        flex-direction: column-reverse;
+    }
+}
+
 @media(max-width:450px){
     .home .apresentacao h1,h2{
         font-size: 1.5rem;

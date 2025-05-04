@@ -1,8 +1,9 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     min-width: 300px;
-    width: 80%;
+    width: 90%;
     padding: 3rem 0;
 }
 .header .logo{
@@ -18,7 +19,7 @@
     line-height: 45px;
     text-align: center;
     text-decoration: underline white;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .header a:hover .name-logo {
@@ -115,8 +116,8 @@
     .header .menu {
         display: block;
         position: absolute;
-        top:-7px;
-        right:-7px;
+        top:-2px;
+        right:-85px;
         z-index: 1;
         margin-right:8rem;
     }

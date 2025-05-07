@@ -19,7 +19,7 @@
 }
 
 .btn-back-to-top:hover{
-    color:orange;
+    color:var(--cor-secundaria);
 }
 
 .visible{

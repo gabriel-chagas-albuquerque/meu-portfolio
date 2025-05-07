@@ -2,9 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../imagens/fundo-roxo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
 }
 

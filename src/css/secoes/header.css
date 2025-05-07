@@ -23,8 +23,8 @@
 }
 
 .header a:hover .name-logo {
-    color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-secundaria);
 }
 
 .header nav{
@@ -48,7 +48,7 @@
 }
 
 .header nav ul li a:hover{
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
 }
 
 .header .menu{

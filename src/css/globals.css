@@ -56,7 +56,6 @@ main {
 }
 
 .redes-sociais a:hover {
-  color: var(--cor-primaria);
   transform: scale(1.2);
 }
 
@@ -65,6 +64,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a.outer-shadow:hover {
+  background-color: var(--cor-secundaria);
 }
 
 .inner-shadow {
@@ -85,13 +88,6 @@ main {
   transition: all .4s ease-in-out;
   background-color: var(--cor-primaria);
 }
-
-.botao:hover {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-branca);
-}
-
-
 
 @media(max-width:600px){
   body{

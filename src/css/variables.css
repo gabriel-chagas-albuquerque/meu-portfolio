@@ -1,8 +1,9 @@
 :root {
     --background:hsl(255, 38%, 22%);
+    --background-button: hsl(254, 38%, 27%);
     --background-cards:rgb(68, 36, 95);
     --cor-primaria: hsl(300, 70%, 52%);
-    --cor-secundaria:  hsl(24, 78%, 47%);
+    --cor-secundaria:  hsl(295, 86%, 39%);
     --cor-branca:#fff;
     
       

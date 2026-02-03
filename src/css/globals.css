@@ -81,6 +81,13 @@ a.outer-shadow:hover {
   font-size: var(--fonte-extra-grande);
 }
 
+.title-secondary {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 4rem 0;
+  font-size: var(--fonte-grande);
+}
+
 .botao {
   font-size: var(--fonte-grande);
   padding: 10px 20px;

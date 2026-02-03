@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Ephesis&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-background: hsl(255, 38%, 22%);
+    --color-background-button: hsl(254, 38%, 27%);
+    --color-background-cards: rgb(68, 36, 95);
+    --color-primary: hsl(300, 70%, 52%);
+    --color-secondary: hsl(295, 86%, 39%);
+
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
+    --font-logo: 'Ephesis', cursive;
+
+    --text-giant: 4.5rem;
+    --text-extra-large: 3rem;
+    --text-large: 2.4rem;
+    --text-normal: 1.6rem;
+
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+}
+
+@layer base {
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: var(--color-background);
+        color: white;
+        font-family: var(--font-primary);
+        font-size: var(--text-normal);
+        @apply min-h-screen overflow-x-hidden;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+@utility text-gradient {
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@utility glass-effect {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@utility hover-lift {
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-8px);
+    }
+}
+
+@utility glow-effect {
+    box-shadow: 0 0 20px rgba(192, 38, 211, 0.3);
+}
+
+@utility glow-effect-hover {
+    transition: box-shadow 0.3s;
+
+    &:hover {
+        box-shadow: 0 0 30px rgba(192, 38, 211, 0.5);
+    }
+}
+
+/* Redes Sociais Legacy Support */
+@utility redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Shadow Effects Legacy Support */
+@utility outer-shadow {
+    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@utility inner-shadow {
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}

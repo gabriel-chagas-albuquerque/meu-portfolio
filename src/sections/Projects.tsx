@@ -37,7 +37,7 @@ const Projects = () => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true }}
-                    className="grid w-full max-w-[1100px] grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3"
+                    className="grid w-full max-w-[1000px] grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
                 >
                     {projects.map((project, index) => (
                         <ProjectCard

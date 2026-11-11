@@ -75,6 +75,65 @@
     }
 }
 
+@utility section-shell {
+    width: 90%;
+    max-width: min(1200px, 90vw);
+    margin-inline: auto;
+}
+
+@utility skills-shell {
+    max-width: min(1200px, 90vw);
+    margin-inline: auto;
+}
+
+@utility skills-copy {
+    max-width: min(600px, 90vw);
+    margin-inline: auto;
+}
+
+@utility skill-card {
+    width: clamp(130px, 12vw, 150px);
+    padding: clamp(1.5rem, 2.8vw, 3rem);
+}
+
+@utility skills-highlight {
+    max-width: min(800px, 90vw);
+    margin-inline: auto;
+}
+
+@utility section-title {
+    font-size: var(--text-extra-large);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.03em;
+}
+
+@utility section-copy {
+    max-width: 700px;
+    margin-inline: auto;
+    color: rgb(255 255 255 / 0.7);
+    line-height: 1.7;
+}
+
+@utility primary-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 3.2rem;
+    border-radius: 9999px;
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 12px 30px rgba(168, 85, 247, 0.35);
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 0 30px rgba(192, 38, 211, 0.5);
+        transform: translateY(-2px);
+    }
+}
+
 /* Redes Sociais Legacy Support */
 @utility redes-sociais {
     display: flex;

@@ -52,7 +52,7 @@ const Footer = () => {
 
     return (
         <footer id="contact" className="mt-20 text-center w-full py-12 bg-background-cards/30 backdrop-blur-sm border-t border-white/10">
-            <div className="max-w-[1440px] mx-auto px-8">
+            <div className="max-w-360 mx-auto px-8">
                 <motion.div
                     initial="hidden"
                     whileInView="visible"

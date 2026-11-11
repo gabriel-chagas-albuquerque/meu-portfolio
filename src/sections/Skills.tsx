@@ -15,7 +15,11 @@ import {
     SiPrisma,
     SiPostgresql,
     SiExpress,
-    SiNextdotjs
+    SiNextdotjs,
+    SiDocker,
+    SiAmazonwebservices,
+    SiLinux,
+    SiTerraform
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -34,6 +38,10 @@ const Skills = () => {
         { name: 'Prisma', icon: SiPrisma, color: '#bbbbbb', level: 'Intermediário' },
         { name: 'Git', icon: FaGitAlt, color: '#F05032', level: 'Intermediário' },
         { name: 'SQL', icon: FaDatabase, color: '#9B59B6', level: 'Básico' },
+        { name: 'Docker', icon: SiDocker, color: '#2496ED', level: 'Básico' },
+        { name: 'AWS', icon: SiAmazonwebservices, color: '#FF9900', level: 'Aprendendo' },
+        { name: 'Linux', icon: SiLinux, color: '#FCC624', level: 'Aprendendo' },
+        { name: 'Terraform', icon: SiTerraform, color: '#844FBA', level: 'Aprendendo' },
     ];
 
     const containerVariants: Variants = {
@@ -60,7 +68,7 @@ const Skills = () => {
 
     return (
         <section id="skills" className="w-full px-8 py-20">
-            <div className="max-w-[1200px] mx-auto">
+            <div className="skills-shell">
                 <motion.div
                     initial={{ opacity: 0, y: -50 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -71,7 +79,7 @@ const Skills = () => {
                     <h2 className="text-extra-large md:text-giant font-bold mb-4">
                         <span className="text-gradient">Habilidades</span>
                     </h2>
-                    <p className="text-[1.8rem] text-white/70 max-w-[600px] mx-auto">
+                    <p className="text-[1.8rem] text-white/70 skills-copy">
                         Tecnologias e ferramentas que domino para criar soluções incríveis
                     </p>
                 </motion.div>
@@ -93,7 +101,7 @@ const Skills = () => {
                                     scale: 1.2,
                                     transition: { duration: 0.3 }
                                 }}
-                                className="w-[150px] p-12 text-center bg-background-cards rounded-xl transition-all duration-500 cursor-pointer group hover:glow-effect"
+                                className="skill-card text-center bg-background-cards rounded-xl transition-all duration-500 cursor-pointer group hover:glow-effect"
                                 style={{
                                     boxShadow: '0 4px 20px rgba(0, 0, 0, 0.3)'
                                 }}
@@ -127,16 +135,6 @@ const Skills = () => {
                     transition={{ duration: 0.6, delay: 0.3 }}
                     className="mt-20 text-center"
                 >
-                    <div className="glass-effect rounded-2xl p-12 max-w-[800px] mx-auto">
-                        <h3 className="text-large font-bold mb-6 text-gradient">
-                            Sempre Aprendendo
-                        </h3>
-                        <p className="text-[1.6rem] text-white/80 leading-relaxed">
-                            Estou constantemente expandindo meu conhecimento e explorando novas tecnologias.
-                            Atualmente focado em aprofundar conhecimentos em arquitetura de software,
-                            cloud computing e inteligência artificial.
-                        </p>
-                    </div>
                 </motion.div>
             </div>
         </section>

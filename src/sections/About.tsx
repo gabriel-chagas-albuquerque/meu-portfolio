@@ -41,13 +41,13 @@ const About = () => {
                 >
                     <div className="flex flex-col gap-8 text-[1.8rem] leading-relaxed text-white/90">
                         <p className="font-medium">
-                            <strong className="text-primary text-[2.2rem]">Olá! Me chamo Gabriel Albuquerque e sou um desenvolvedor frontend apaixonado por tecnologia!</strong>
+                            <strong className="text-primary text-[2.2rem]">Olá! Me chamo Gabriel Albuquerque e sou um DevOps em formação!</strong>
                         </p>
                         <p>
                             Gosto MUITO da área de tecnologia e mais ainda de desafios. Tenho certeza que posso contribuir significativamente em qualquer time com as minhas habilidades, sempre buscando aprimorar meus pontos fortes e evoluir constantemente.
                         </p>
                         <p>
-                            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedbacks e compartilhar conhecimento. Para mim, a tecnologia é o meio mais incrível de transformar ideias em realidade. 😁
+                            Estou sempre me desafiando com novos projetos e participando de comunidades para buscar feedbacks e compartilhar conhecimento. Para mim, a tecnologia é o meio mais incrível de transformar ideias em realidade. 😁
                         </p>
                     </div>
 
@@ -58,7 +58,7 @@ const About = () => {
                             download
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="inline-block px-12 py-5 bg-gradient-to-r from-primary to-secondary rounded-full text-[1.6rem] font-semibold transition-all duration-300 hover:glow-effect shadow-xl"
+                            className="primary-cta"
                         >
                             Download CV
                         </motion.a>

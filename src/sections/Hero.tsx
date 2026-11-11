@@ -33,7 +33,7 @@ const Hero = () => {
                             <span className="text-gradient">Gabriel Albuquerque</span>
                         </h1>
                         <h2 className="text-[2.6rem] sm:text-[3.2rem] text-white/60 font-medium mb-8">
-                            Desenvolvedor Fullstack
+                            DevOps Junior
                         </h2>
                     </motion.div>
 
@@ -43,8 +43,7 @@ const Hero = () => {
                         transition={{ delay: 0.4, duration: 0.8 }}
                         className="text-[1.8rem] text-white/70 max-w-[600px] mb-10 leading-relaxed"
                     >
-                        Especializado em criar interfaces modernas, responsivas e de alta performance.
-                        Transformando designs complexos em experiências digitais fluidas.
+                        Pretendo construir ambientes e desenvolver processos tecnológicos mais eficientes, confiáveis e escaláveis, contribuindo não apenas com a implementação de soluções, mas também com a integração entre desenvolvimento, infraestrutura e pessoas.
                     </motion.p>
 
                     <div className="flex flex-col sm:flex-row items-center gap-8">
@@ -52,7 +51,7 @@ const Hero = () => {
                             href="#projects"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="px-12 py-5 bg-gradient-to-r from-primary to-secondary rounded-full text-[1.8rem] font-semibold hover:shadow-[0_0_30px_rgba(192,38,211,0.5)] transition-all duration-300"
+                            className="primary-cta"
                         >
                             Ver Projetos
                         </motion.a>

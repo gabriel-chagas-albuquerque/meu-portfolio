@@ -79,7 +79,7 @@ export const projects: Project[] = [
     title: 'Provisionamento Automático AWS',
     description: 'IAC em Terraform que cria e destrói uma instância na AWS de forma automática. Constrói tudo que é necessário para criar uma instância EC2 (VPC, sub-redes, gateways, grupos de segurança, etc.).',
     technologies: ['AWS', 'Terraform'],
-    githubUrl: 'https://github.com/lucaoskaique/entregacao-app',
+    githubUrl: 'https://github.com/gabriel-chagas-albuquerque/primeiro-projeto-aws',
   },
   {
     slug: 'digital-store-api',
